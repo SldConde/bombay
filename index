@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="utf8">
+        <title>TREINANDO</title>
+
+        <style>
+
+            h1{
+                text-align: center;
+                padding: 30px;
+            }
+
+            *{
+                margin: 0px;
+            
+            }
+
+            .caixa-cabecalho {
+                width: 95%;
+                height: 40px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                background: skyblue;
+            
+            }
+            
+            /*-------------------------------------------------------*/
+
+            .estilo-menu-item {
+
+                text-align: center;
+                padding: 120px;
+                font-size: 12px;
+                position: relative;
+                left: 120px;
+            
+            }
+
+            /*-------------------------------------------------------*/
+
+            .estilo-fonte {
+
+                padding: 0px 10px;
+
+                font-family: Brush Script MT, cursive;
+                font-size: 20px;                
+                line-height: 15px;
+                position: relative;
+                left: -40px;
+            }
+
+            /*-------------------------------------------------------*/
+
+            .caixa-conteudo {
+                width: 95%;
+                height: 500px;
+                background-color: skyblue;
+                background-image: url(/imagens/BOMBAY-SAPPHIRE);
+                background-position: center;
+                background-size: 1750px 500px;
+                background-repeat:no-repeat ;
+            
+            }
+
+            /*-------------------------------------------------------*/
+
+            .caixa-conteudo-item-1{
+                width: 300px;
+                padding: 30px;
+            
+            }
+
+            /*-------------------------------------------------------*/
+
+            .caixa-conteudo-item-2{
+                width: 300px;
+                padding: 30px;
+            
+            }
+
+            /*-------------------------------------------------------*/
+
+            .caixa-rodape{
+
+                width: 95%;
+                height: 50px;
+                background: skyblue;
+            
+            }
+
+            /*-------------------------------------------------------*/
+
+            .rodape-fonte{
+
+                position: relative;
+                top: 10px;
+                left: -80px;
+
+            }
+
+/*-------------------------------------------------------*/
+        </style>
+
+    </head>
+
+    <body>
+
+        <main>
+
+            <section class="caixa-cabecalho">
+
+                <font class="estilo-fonte">Bombay Saphire</font>
+
+                <nav class="estilo-menu"> 
+                    
+                    <a class= "estilo-menu-item" href="">HOME</a>
+                    <a class= "estilo-menu-item" href="">DRINKS</a>
+                    <a class= "estilo-menu-item" href="">PRODUTOS</a>
+                
+                </nav>
+            
+            </section>
+
+            <section class="caixa-conteudo">
+
+                <h1 class="caixa-conteudo-item-1">Bombay Destilaria de Safira</h1>
+                
+                <p class="caixa-conteudo-item-2">Entre em nossa destilaria em Laverstoke Mill, em Hampshire, 
+                Inglaterra, e descubra os segredos por trás do nosso famoso Gin 
+                do mundo.
+
+            </section>
+
+            <!--
+
+            <aside>
+
+                <ul>
+
+                    <li>MENU</li>
+
+                </ul>
+
+            </aside>
+
+            -->
+
+            <footer class="caixa-rodape"><center class="rodape-fonte"><h3>Todos os direitos estão reservados.</h3></center></footer>
+
+            
+
+        </main>
+    </body>
+
+</html>
